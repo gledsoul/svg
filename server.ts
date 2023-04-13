@@ -10,7 +10,7 @@ import routes from "./routes/_export.ts";
 
 serve({
   plugins: [
-    react({ ssr: true }),
+    react({ ssr: false }),
     unocss(config),
   ],
   router:{
