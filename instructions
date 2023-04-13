@@ -1,0 +1,22 @@
+? Project Name: wallet
+? Select a framework:
+  1. React
+  2. React with MDX
+  3. Yew
+  4. Leptos
+  5. REST API
+[1-5] 1
+? Use Atomic CSS (powered by Unocss)? [y/N] y
+? Initialize VS Code workspace configuration? [y/N] N
+? Deploy to Deno Deploy? [y/N] N
+↓ Downloading template(react), this might take a moment...
+
+▲ Aleph.js is ready to go!
+
+$ cd wallet
+$ deno task dev    # Start the server in `development` mode
+$ deno task start  # Start the server in `production` mode
+$ deno task build  # Build & Optimize the app (bundling, SSG, etc.)
+
+Docs: https://alephjs.org/docs
+Bugs: https://github.com/alephjs/aleph.js/issues
